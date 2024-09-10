@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       brule: ["Brule", "sans-serif"],
-      satoshi: ["Satoshi_Variable", "sans-serif"],
+      satoshi: ["Satoshi", "sans-serif"],
     },
     container: {
       screens: {

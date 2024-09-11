@@ -4,6 +4,8 @@ import Brule from "next/font/local";
 import Satoshi_Variable from "next/font/local";
 import "./globals.css";
 import { Navigation } from "@/Components";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 

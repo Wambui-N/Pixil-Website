@@ -11,5 +11,5 @@
 }
 
 body {
-  @apply bg-white px-32;
+  @apply bg-white px-32 text-black;
 }

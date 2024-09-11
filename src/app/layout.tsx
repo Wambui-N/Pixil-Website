@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Brule from "next/font/local";
 import Satoshi_Variable from "next/font/local";
 import "./globals.css";
+import { Navigation } from "@/Components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -66,7 +67,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,300,0,0&display=optional"
+          rel="stylesheet"
+        />
+      </head>
       <body>
+        <Navigation />
         {children}
       </body>
     </html>

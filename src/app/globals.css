@@ -11,5 +11,5 @@
 }
 
 body {
-  @apply bg-white px-32 text-black;
+  @apply max-w-screen-lg mx-auto scroll-smooth selection:bg-grey/30 bg-white text-black font-satoshi;
 }

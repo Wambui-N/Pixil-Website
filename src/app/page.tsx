@@ -1,8 +1,9 @@
+import { Hero } from "@/Components";
+
 export default function home() {
   return (
     <main className="">
-      <h1 className="font-brule font-normal text-2xl">This is using the Brule font.</h1>
-      <h1 className="font-satoshi text-2xl">This is using the Satoshi font.</h1>
+      <Hero />
     </main>
   );
 }

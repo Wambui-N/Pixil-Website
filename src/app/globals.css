@@ -11,5 +11,5 @@
 }
 
 body {
-  @apply max-w-screen-lg mx-auto scroll-smooth selection:bg-grey/30 bg-white text-black font-satoshi;
+  @apply max-w-screen-lg overflow-x-hidden mx-auto scroll-smooth selection:bg-grey/30 bg-white text-black font-satoshi text-pretty;
 }

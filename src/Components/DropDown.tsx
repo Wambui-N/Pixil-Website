@@ -98,7 +98,7 @@ const DropDown = () => {
             ))}
             <Link
               href="/Book"
-              className="text-iron font-brule font-medium text-3xl uppercase py-2 flex flex-row justify-end items-center"
+              className="text-iron font-brule font-medium text-xl uppercase py-2 flex flex-row justify-end items-center"
             >
               Let&apos;s Get Started{" "}
               <span className="material-symbols-rounded">arrow_outward</span>

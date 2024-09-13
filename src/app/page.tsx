@@ -1,4 +1,4 @@
-import { Hero, Benefits } from "@/Components";
+import { Hero, Benefits, Quiz } from "@/Components";
 
 export default function home() {
   return (
@@ -6,6 +6,7 @@ export default function home() {
       {/* TODO Add page transitions */}
       <Hero />
       <Benefits />
+      <Quiz />
     </main>
   );
 }

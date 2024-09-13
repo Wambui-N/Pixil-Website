@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navigation = () => {
   return (
-    <div className="flex flex-row justify-between items-center w-full py-6">
+    <div className="responsive flex flex-row justify-between items-center w-full py-6">
       <Link href={"/"}>
         <svg
           className="w-44"

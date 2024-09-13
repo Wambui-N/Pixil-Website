@@ -3,14 +3,14 @@ import Benefit from "./Benefit";
 
 const Benefits = () => {
   return (
-    <div className="flex flex-row gap-6 my-8">
+    <div className="responsive flex flex-row gap-6 my-8">
       <div className="basis-1/2 flex flex-col gap-2 sticky top-10 h-full">
         {/* <h6 className="capitalize text-sm font-lg">
           the pixil design advantage
         </h6> */}
         {/* TODO Fix the design of the h6 */}
         <h2 className="font-brule text-3xl uppercase">
-          How we&apos;ll take your business to the next level
+          How we will take your business to the next level
         </h2>
       </div>
       <div className="basis-1/2 flex flex-col gap-6">

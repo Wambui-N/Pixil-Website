@@ -11,7 +11,7 @@
 }
 
 body {
-  @apply overflow-x-hidden scroll-smooth selection:bg-grey/30 bg-white text-black font-satoshi text-pretty;
+  @apply overflow-x-hidden min-h-screen scroll-smooth selection:bg-grey/30 bg-white text-black font-satoshi text-pretty;
 }
 
 .responsive{
